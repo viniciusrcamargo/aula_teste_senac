@@ -1,4 +1,4 @@
-# Meus Projetos de Sites
+# Projeto de desenvolvimeno de Sites
 
 Este repositório contém dois projetos de sites: um básico e outro mais aprimorado. Eles foram desenvolvidos como parte de uma aula teste no Senac.
 
