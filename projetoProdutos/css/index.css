@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.logo {
+  width: 200px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute;
+}
+
+.cabecalho__navegacao {
+    text-align: right;
+}
+
+.cabecalho__link {
+
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.1rem;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-top: 1.7rem;
+    margin-bottom: 1.25rem;
+    /* margin-left: .7rem; */
+}
+
+.titulo__principal{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 28pt;
+    font-weight: 800;
+}
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto{
+    width: 30%;
+    margin: 1.5%;
+    padding: 1.5%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.titulo__produto{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.imagem__produto{
+    width: 100%;
+    height: 200px;
+}
+
+.descricao__produto{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.texto__rodape{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+
+
+/* Estilos para tornar a página responsiva */
+@media (max-width: 768px) {
+    /* Estilos para dispositivos móveis */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para tablets */
+}
+
+@media (min-width: 1025px) {
+    /* Estilos para desktops */
+}
